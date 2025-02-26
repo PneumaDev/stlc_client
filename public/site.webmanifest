@@ -1,0 +1,31 @@
+{
+  "name": "STLC",
+  "short_name": "STLC",
+  "icons": [
+    {
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#ffffff",
+  "background_color": "#f0ffff",
+  "display": "standalone",
+  "scope": "/",
+  "start_url": "/?source=pwa",
+  "id": "AIzaSyCoYI7mWAs3XrQv0DCeB0eCETym-eGv0Js",
+  "description": "Share the Love Center Web App Description\n\nWelcome to the Share the Love Center web app, your ultimate platform for spiritual growth and community connection. Designed with you in mind, our app provides seamless access to a rich library of church sermons, uplifting music albums, and timely notifications to keep you engaged and informed.\nKey Features:\n\n    Stream Church Sermons: Dive into a collection of inspiring sermons from our dedicated pastors and guest speakers. Whether you're seeking spiritual guidance, encouragement, or biblical teachings, you can easily stream sermons on-demand, anytime and anywhere.\n\n    Explore Music Albums: Enjoy a curated selection of uplifting music albums that resonate with your faith. From contemporary Christian songs to traditional hymns, our music library will elevate your worship experience and fill your heart with joy.\n\n    Real-time Notifications: Stay connected with your church community through timely notifications. Receive updates about upcoming events, new sermon releases, and special announcements, ensuring you never miss an important moment.\n\n    User-Friendly Interface: Our intuitive design makes it easy to navigate through sermons and albums, ensuring a smooth and enjoyable user experience.\n\n    Community Engagement: Connect with fellow members of the Share the Love Center community, share your thoughts, and discuss sermons and music that inspire you.\n\nJoin Us Today\n\nDownload the Share the Love Center web app and embark on a transformative journey of faith, connection, and inspiration. Stream sermons, enjoy uplifting music, and stay connected with your church community like never before. Together, let’s share the love and grow in faith!",
+  "dir": "auto",
+  "lang": "en",
+  "display_override": [
+    "browser",
+    "standalone",
+    "fullscreen",
+    "window-controls-overlay"
+  ]
+}

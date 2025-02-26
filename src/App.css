@@ -1,0 +1,28 @@
+.rhap_container {
+  border-radius: 25px;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollable {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.swipeable-container {
+  display: flex; /* Flex display for horizontal layout */
+  overflow-x: auto; /* Allow horizontal scrolling */
+  -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
+  scrollbar-width: none; /* Firefox */
+}
+
+.swipeable-container::-webkit-scrollbar {
+  display: none; /* Hide scrollbar for WebKit browsers */
+}
+
+/* Optional: Ensure a better experience on touch devices */
+.swipeable-container {
+  touch-action: pan-x; /* Enable horizontal swipe action */
+}

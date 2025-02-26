@@ -1,0 +1,84 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: azure;
+  font-family: "Roboto", sans-serif;
+}
+
+.font-imprima {
+  font-family: "Imprima", sans-serif !important;
+}
+
+p {
+  font-family: "Imprima", sans-serif;
+}
+
+.custom-image-gallery .image-gallery-slide img {
+  height: auto;
+  max-height: 80vh;
+  object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  .custom-image-gallery .image-gallery-slide img {
+    max-height: 50vh;
+    /* Adjust height for smaller devices */
+  }
+}
+
+.slide-enter {
+  opacity: 0;
+  transform: translateY(-100%);
+}
+
+.slide-enter-active {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 300ms, transform 300ms;
+}
+
+.slide-exit {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.slide-exit-active {
+  opacity: 0;
+  transform: translateY(-100%);
+  transition: opacity 300ms, transform 300ms;
+}
+
+.fade-enter {
+  opacity: 0;
+}
+
+.fade-enter-active {
+  opacity: 1;
+  transition: opacity 300ms;
+}
+
+.fade-exit {
+  opacity: 1;
+}
+
+.fade-exit-active {
+  opacity: 0;
+  transition: opacity 300ms;
+}
+
+.swiper-slide {
+  display: grid;
+}
+
+/* Hide scrollbar for Chrome, Safari, and Opera */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge, and Firefox */
+.no-scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
